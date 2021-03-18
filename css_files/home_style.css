@@ -1,0 +1,523 @@
+*{
+  font-family: 'Poppins', sans-serif;;
+}
+
+
+.login{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 10000000;
+  background-color: rgba(20, 11, 11, 0.7);
+  display: none;
+}
+
+.signup{
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 10000000;
+  background-color: rgba(20, 11, 11, 0.7);
+  display: none;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.x{
+  position: absolute;
+  top: 5px;
+  right: -40px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+
+.search-inp{
+   border-radius: 25px;
+}
+
+.brdr-raduise{
+    border-radius: 25px;
+}
+
+.bg-transparent{
+    background-color: transparent !important;
+}
+
+.bg-nav{
+  background-color:rgba(220,255,237,.4);
+  z-index: 1;
+}
+
+.plan_nav{
+   position: absolute;
+   
+    z-index: 999;
+    width: 100%;
+}
+
+header{
+  width: 100%;
+  height: 620px;
+ 
+
+}
+
+.color-font-blue{
+  color: #092F55;
+}
+
+
+
+
+
+.header-svg{
+  z-index: 5;
+}
+
+.header-layer{
+  width: 100%;
+  height: 78.5%;
+  background-color: rgba(220,255,237,.4);
+  position: absolute;
+  top: 132px;
+  z-index: 1;
+}
+
+
+
+
+.icons{
+  height: 200px;
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  top: 70px; 
+}
+
+.icons i {
+  font-size: 50px;
+  margin-top: 10px;
+}
+.fa-youtube-square{color: #fe011d;}
+.fa-facebook-square{color: #4267b2;}
+.fa-twitter-square{color: #2aa9e0;}
+.fa-instagram-square{color: #fda13e;}
+
+.icons i:hover{color: black !important;}
+
+.slogin h2 {
+  font-size: 30px;
+  font-weight: 600;
+color: #092F55;
+
+}
+
+.btn-more{
+  background-color: #D9000D;
+  color: white;
+}
+
+.cls-1 {
+  opacity: 0.8;
+}
+
+.cls-2 {
+  opacity: 0.5;
+}
+
+.cls-3, .cls-4 {
+  fill: #ced3e6;
+}
+
+.cls-4 {
+  opacity: 0.42;
+}
+
+.cls-5 {
+  fill: #fff;
+}
+
+.cls-6 {
+  fill: #39393b;
+}
+
+.cls-7 {
+  fill: #df615c;
+}
+
+.cls-8 {
+  fill: #21b573;
+}
+
+.cls-9 {
+  fill: #d2dcec;
+}
+
+.cls-10 {
+  fill: none;
+}
+
+.cls-11 {
+  fill: #ea9b7a;
+}
+
+.cls-12 {
+  fill: #d46a43;
+}
+
+.cls-13 {
+  fill: #217c58;
+}
+
+.cls-14 {
+  fill: #585859;
+}
+
+
+
+
+
+
+
+
+
+
+.post{
+    position: relative;
+    overflow: hidden;
+   
+  }
+  
+  
+  .layer{
+  
+    width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgba(255,255,255,.7);
+      
+      text-align: center;
+     
+      color: #000;
+     
+  
+      transition: all 1s;
+  }
+  .layer h3 {
+  margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .main:hover .layer{
+  
+    position: absolute;
+    top: 0px;
+    left: 0;
+  }
+  
+
+
+
+
+
+
+.layer button{
+    background-color: #ff1620;
+    color: white; 
+    border-radius: 25px;
+
+}
+
+.layer button:hover{
+border: 1px solid white;
+    background-color: black;
+    color: white; 
+}
+
+
+  .cotact{
+  
+    color: aliceblue;
+  }
+
+.main{position: relative;
+display: flex;
+justify-content: center;}
+
+
+
+
+.crs-name1{
+    color:white;
+    position: absolute;
+    bottom: 10px;
+   
+}
+
+.bundle-name{
+    width: 80px;
+    height: 60px;
+    background-color: #dc3545;
+    color:white;
+    position: absolute;
+    bottom: 0px;
+   left: 0px;
+   font-size: 18px;
+}
+
+  .crs-name2{
+      color:black;
+      position: absolute;
+      bottom: 0px;
+     
+  }
+
+
+
+
+  .free-courses{
+    height: 400px;
+    width: 100%;
+ 
+    position: relative;
+}
+  .owl-prev span{font-size: 100px;}
+  .owl-next span{font-size: 100px;}
+
+
+  .owl-prev{
+      position: absolute;
+      left: -40px;
+      z-index: 3333;
+      top: 0px;
+      bottom: 30px;
+    
+     
+  }
+
+  .owl-next{
+    position: absolute;
+    right: -40px;
+    z-index: 3333;
+    top: 0px;
+    bottom: 30px;
+}
+.sliders{
+  position: relative;
+}
+.svg-2{
+   position: absolute;
+   top: 50px;
+   right: 500px;
+ 
+}
+
+
+.join-course{
+  position: relative;
+ 
+}
+.svg-3{
+  position: absolute;
+  width: 100%;
+
+} 
+
+
+
+
+.offers{
+  z-index: 100;
+
+ height: 450px;
+}
+.offers h6 {
+  font-size: 30px;
+}
+.join-course-btn{
+
+  border: none;
+  background-color: #D9000D;
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+
+  .offers h6 {
+    font-size: 16px;
+    margin-top: 30px !important ;
+padding-top: 0px !important;
+margin-left: 110px;
+  }
+
+
+  .join-course-btn{
+    margin: 0px 110px !important ;
+    padding: 4px !important;
+
+  }
+  .owl-prev{
+    position: absolute;
+    left: 0px;
+    z-index: 3333;
+    top: 0px;
+    bottom: 30px;
+  
+   
+}
+
+.owl-next{
+  position: absolute;
+  right: 0px;
+  z-index: 3333;
+  top: 0px;
+  bottom: 30px;
+}
+
+
+}
+
+
+.talkes-video{
+
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+
+
+}
+
+.ifram-video{
+  
+  width: 100%;
+  height: 100%;
+}
+
+.owl-next{
+  border: 1px transparent !important;
+  background-color: transparent !important;
+}
+
+.owl-prev{
+  border: 1px transparent !important;
+  background-color: transparent !important;
+}
+
+.our-trainers{
+  background-image: url(../imgs/bg-trainers.jpg);
+}
+
+
+.hi-slide .hi-next,
+.hi-slide .hi-prev{
+  top: 56%;
+  height: 40px;
+  margin-top: -40px;
+  border-radius: 50px;
+  line-height: 42px;
+  background-color: #D9000D;
+  font-size: 30px;
+}
+
+
+.svg-partners{
+  
+  height: 500px;
+  margin: auto;
+}
+
+footer{
+  background-color: #092F55;
+  color: white;
+
+}
+
+.i-link{      
+  text-decoration: none;
+  color: white;
+
+
+}
+
+
+
+  .i-link:hover{
+    text-decoration: none;
+  color: aquamarine;
+  
+  }
+
+  .socila-icon{
+    font-size: 30px;
+  }
+
+
+
+
+  .owl-next:hover{
+    color: #000 !important;
+  }
+
+  .owl-prev:hover{
+    color: #000 !important;
+  }
+
+
+  .owl-next:focus, .owl-prev:focus {outline: none;}
+
+
+
+  .share i{
+    font-size: 25px;
+}
+
+
+
+.icon-redus{
+    font-size: 25px;
+    color: #dc3545;
+    border: solid 1px #dc3545;
+    border-radius: 50%;
+    padding: 7px 7px;
+    cursor: pointer;
+   
+
+}
+
+.icon-redus:hover{
+   color: #ffffff;
+   background-color:#dc3545 ;
+}
+
+
+.cart{
+  width: 300px;
+  height: 580px;
+  background-color: #FDEDED;
+  position: fixed;
+  top: 76px;
+  right: -300px;
+  z-index: 3000;
+}
+
+.cart-item{
+  border-bottom: solid 2px red;
+}
+
+.cartHide{
+  cursor: pointer;
+}

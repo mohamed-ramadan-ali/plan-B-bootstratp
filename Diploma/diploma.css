@@ -1,0 +1,15 @@
+.plan_nav{
+    position: relative ;
+    
+     z-index: 999;
+     width: 100%;
+ }
+
+ .courses-text{
+    margin-top: 50px;
+    margin-left: 40px;
+ }
+
+ .icons{
+     margin-top: 50px;
+ }

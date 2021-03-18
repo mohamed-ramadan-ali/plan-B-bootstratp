@@ -1,0 +1,21 @@
+.plan_nav{
+    position: relative ;
+    
+     z-index: 999;
+     width: 100%;
+ }
+ .cale{
+
+    font-size: 30px;
+ }
+
+ .book-video{
+     position: relative;
+     top: 40px;
+ }
+
+ .larg{
+     font-size: 40px;
+     color: #D9000D;
+     cursor: pointer;
+ }
